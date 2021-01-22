@@ -1,0 +1,5 @@
+Esse desafio me deu um pouco mais de trabalho, mas aqui está! 
+Precisei aprender funções como setTimeout e setInterval. 
+Aprender JS tem sido uma experiencia incrivel e incentivo a todos aprenderem a programar com pequenos
+desafios. 
+

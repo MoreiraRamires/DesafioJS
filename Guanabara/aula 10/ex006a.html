@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somando Valores</title>
+  
+  
+</head>
+<body>
+  <h1> Idade da Morte - by: Sr Osmar</h1>
+  <input type="number" name="" id="datedeath">
+  <input type="number" name="" id="dateborn">
+  <button id="btn"> Trágico!</button>
+
+  <div id="msg"> </div>
+  
+</body>
+<script>
+    
+
+  var button = document.getElementById("btn");
+
+
+    button.addEventListener("click", calcular);
+
+
+    function calcular () {
+      let tdeath = document.querySelector("#datedeath");
+      let tborn = document.querySelector("#dateborn");
+  
+      let born = Number(tborn.value);
+      let death = Number( tdeath.value);
+      
+      let age = death - born;
+      let msg = document.querySelector("#msg")
+      msg.innerHTML=`Tragico, tragico. Foi com ${age}`
+    }
+
+
+
+</script>
+</html>

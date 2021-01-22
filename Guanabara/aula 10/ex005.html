@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ 
+<div id="area">
+  Interaja
+</div>
+
+  <style>
+  body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+
+  }
+  #area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    color: white;
+  }
+  #area h1 {
+    margin: 0 auto;
+  }
+  </style>
+  <script>
+  let area = document.querySelector("#area");
+  area.addEventListener("click",clicar)
+  area.addEventListener("mouseenter", entrar)
+   area.addEventListener("mouseout", saiu);
+
+
+    function clicar(){
+      let area = document.querySelector("#area");
+      area.style.backgroundColor="red";
+      area.innerHTML="Clicou"
+    }
+
+    function entrar(){
+      let area = document.querySelector("#area");
+      area.style.backgroundColor="black";
+      area.innerHTML="entrou"
+    }
+
+    function saiu(){
+      let area = document.querySelector("#area");
+      area.style.backgroundColor="purple";
+      area.innerHTML="saiu"
+    }
+
+
+  </script>
+</body>
+</html>

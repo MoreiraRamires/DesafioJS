@@ -1,0 +1,47 @@
+body{
+  background-color:rgba(89, 89, 243, 0.637);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+  h1{
+    color: white;
+  }
+
+
+  article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    .text__center{
+     
+      text-align: center;
+
+    }
+
+    .img__center{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+      img{
+        width:30vw;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+
+}

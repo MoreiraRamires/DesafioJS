@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Preencha seus dados</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur <b> Lorem, ipsum.</b>adipisicing elit. Eligendi officia officiis, atque ipsum illum dolor.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia officiis, atque ipsum illum dolor.</p>
+
+  <div id="mensage">
+    <h2>Hello</h2>
+    <p>Ola</p>
+  </div>
+
+  <div id="tell">
+    <h1>Tell me</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+  </div>
+
+  <style>
+    body{
+      background-color: #f0f0f0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+    }
+  </style>
+  <script>
+
+    const body = document.body;
+    let title = document.getElementsByTagName("h1")[0];
+    let paragrafo1= document.getElementsByTagName("p")[0];
+    let paragrafo2= document.getElementsByTagName("p")[1];
+
+   paragrafo1.style.color="white"
+   body.style.backgroundColor="black";
+
+   paragrafo2.style.color="white";
+   title.style.color="blue";
+
+   let mensage = document.querySelector("#mensage")
+
+   mensage.style.width="100px";
+   mensage.style.heigth="100px";
+   mensage.style.backgroundColor="blue"
+
+   let h2 = document.querySelector("#mensage h2")
+
+   h2.style.color="white"
+
+
+
+   secondDiv= document.querySelector("#tell");
+   secondDiv.style.backgroundColor="green";
+   secondDiv.style.width="100";
+   secondDiv.style.heigth="100";
+   secondDiv.style.backgroundColor="green"
+   
+  </script>
+</body>
+</html>
